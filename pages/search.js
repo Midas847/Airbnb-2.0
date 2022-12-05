@@ -6,7 +6,7 @@ import { format } from "date-fns";
 import InfoCard from "../components/InfoCard";
 import Map from "../components/Map";
 
-function search({ searchResults }) {
+function Search({ searchResults }) {
   const router = useRouter();
   const { location, startDate, endDate, noofGuests } = router.query;
 
@@ -64,7 +64,7 @@ function search({ searchResults }) {
   );
 }
 
-export default search;
+export default Search;
 
 export async function getServerSideProps() {
   const searchResults = await fetch("https://www.jsonkeeper.com/b/5NPS").then(
