@@ -42,6 +42,7 @@ function Search({ searchResults }) {
             {searchResults.map(
               ({ img, location, title, description, star, price, total }) => (
                 <InfoCard
+                  key={img}
                   image={img}
                   location={location}
                   title={title}
