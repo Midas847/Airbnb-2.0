@@ -28,7 +28,7 @@ function Footer() {
         <p>Presents</p>
         <p>Airbnb</p>
         <p>2.0</p>
-        <p>Let's go</p>
+        <p>Let&apos;s go</p>
       </div>
       <div className="space-y-4 text-xs text-gray-800">
         <h5 className="font-bold">SUPPORT</h5>
